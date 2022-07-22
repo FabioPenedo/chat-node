@@ -1,41 +1,67 @@
-<h1 align="center">Chat Node</h1>
+![pc](https://user-images.githubusercontent.com/82732587/180342920-ecc688e6-403a-41b1-ae1a-268480613f13.gif)
 
-## Principais Tecnologias Usadas 📓
-<ul>
-    <li>Node</li>
-    <li>TypeScript</li>
-    <li>Express</li>
-    <li>Socket.io</li>    
-</ul>
+## 💻 Projeto
 
-## Projeto 💻
 Este projeto foi feito para fins de estudos e tem como objetivo simular um chat onde foi usado a biblioteca socket.io, ela permite a conexão entre servidor/client em tempo real. O front-end foi feito com HTML e CSS, e é totalmente responsivo, ou seja, se adapta para qualquer dispositivo que acessar.
 
-## Para rodar o projeto ⏯
-### Pré-requisitos globais:
-```npm i -g typescript ts-node```
+## 🌐 Web
 
-### Instalação de dependências:
-```npm install```
+https://penedochatnode.herokuapp.com/
+
+## 🧱 Tecnologias
+
++ NodeJs(Express)
++ TypeScript
++ JavaScript
++ Socket
++ HTML
++ CSS
+
+## ✨ Executar localmente
+
+Clone o projeto
+
+```bash
+git clone https://github.com/FabioPenedo/chat-node
+```
+
 
 ### Configuração do arquivo .env (exemplo):
+
+Porta onde o projeto irá rodar
+
+```bash
+PORT=3000
 ```
-//porta onde o projeto irá rodar
-PORT=5000
 
-//url base
-BASE=http://localhost:5000
+Url base
+
+```bash
+BASE=http://localhost:3000
 ```
 
-### Para rodar o projeto:
-```npm start```
+Entre na pasta do projeto
 
-## Erros ❌😵
-Durante testes foram observados alguns erros:
-<ul>
-  <li>quando entram com nomes iguais gera erros no chat</li>
-  <li>dispositivos iOS não conseguem sair da tela de identificação para acessar o chat pois é necessário apertar na tecla ENTER após digitar o nome</li>
-</ul>
+```bash
+cd chat-node
+```
 
-## Heroku
-A aplicação já se encontra em nuvem e em funcionameto no Heroku para uso e testes, <a href="https://fierce-caverns-94737.herokuapp.com/">clique aqui</a> para acessar.
+Instale as dependências globais
+
+```bash
+npm install -g nodemon typescript ts-node
+```
+
+Instale as dependências
+
+```bash
+npm install
+```
+
+Inicie o servidor
+
+```bash
+npm run start-dev
+```
+
+Feito por Fábio Penedo: 👋 [Entre em contato](https://www.linkedin.com/in/fabiopenedo/)
